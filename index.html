@@ -424,7 +424,7 @@
     <div>
       <div class="hero-tag">Open to Spring 2027 Internships</div>
       <h1>Prakash<br><span>Pappala</span></h1>
-      <p class="hero-sub">AI/ML Engineer & Software Engineer pursuing MS CS at UT Arlington. I build production-ready AI systems — multi-agent pipelines, RAG systems, multimodal models, and deployed REST APIs.</p>
+      <p class="hero-sub">I'm a Master's student in Computer Science at UT Arlington, currently doing research on LLMs and multimodal AI. Outside of coursework I build things — agent pipelines, RAG systems, computer vision tools — and try to ship them properly, not just leave them as notebooks.</p>
       <div class="hero-tags">
         <span class="tag">LLMs</span>
         <span class="tag">NLP</span>
@@ -473,16 +473,20 @@
   <h2 class="section-title">What I've Built</h2>
   <div class="projects-grid">
 
-    <a href="https://github.com/prakash-pappala/agentic-research-assistant" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">🤖</span><span class="project-badge">Agentic AI</span></div>
+    <div class="project-card">
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">Agentic AI</span></div>
       <div class="project-title">Agentic Research Assistant</div>
       <div class="project-desc">4-agent autonomous pipeline using LangGraph — Planner, Researcher, Critic, Writer working sequentially to produce structured research reports.</div>
       <div class="project-metric">↳ Multi-agent orchestration · Docker · CI/CD</div>
       <div class="project-stack"><span class="stack-tag">LangGraph</span><span class="stack-tag">Groq Llama3</span><span class="stack-tag">Docker</span><span class="stack-tag">GitHub Actions</span></div>
-    </a>
+      <div style="display:flex;gap:8px;margin-top:4px;">
+        <a href="https://huggingface.co/spaces/prakash-pappala/agentic-research-assistan" target="_blank" style="flex:1;text-align:center;background:var(--green);color:white;padding:8px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;">Live Demo</a>
+        <a href="https://github.com/prakash-pappala/agentic-research-assistant" target="_blank" style="flex:1;text-align:center;background:var(--surface);color:var(--text);padding:8px;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;border:1px solid var(--border);">GitHub</a>
+      </div>
+    </div>
 
     <a href="https://github.com/prakash-pappala/rag-document-qa" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">📄</span><span class="project-badge">RAG</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">RAG</span></div>
       <div class="project-title">RAG Document QA System</div>
       <div class="project-desc">Upload any document and ask questions. LangChain + FAISS for semantic retrieval and Groq Llama3 for context-aware answers.</div>
       <div class="project-metric">↳ Reduced hallucination vs vanilla LLM</div>
@@ -490,21 +494,21 @@
     </a>
 
     <a href="https://github.com/prakash-pappala/resume-screening" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">📋</span><span class="project-badge">NLP</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">NLP</span></div>
       <div class="project-title">AI Resume Screening System</div>
       <div class="project-desc">Matches resumes to job descriptions using cosine similarity with sentence-transformers and AI feedback via Groq Llama3.</div>
       <div class="project-stack"><span class="stack-tag">Sentence Transformers</span><span class="stack-tag">Groq Llama3</span><span class="stack-tag">Streamlit</span></div>
     </a>
 
     <a href="https://github.com/prakash-pappala/multimodal-clip-search" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">🖼️</span><span class="project-badge">Multimodal</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">Multimodal</span></div>
       <div class="project-title">Multimodal CLIP Image-Text</div>
       <div class="project-desc">Zero-shot image classification and cross-modal semantic search using OpenAI CLIP. Upload an image, match it to text labels.</div>
       <div class="project-stack"><span class="stack-tag">CLIP</span><span class="stack-tag">HuggingFace</span><span class="stack-tag">PyTorch</span></div>
     </a>
 
     <a href="https://github.com/prakash-pappala/sentiment-api-bert-fastapi" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">⚡</span><span class="project-badge">REST API</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">REST API</span></div>
       <div class="project-title">Sentiment Analysis REST API</div>
       <div class="project-desc">Production-ready FastAPI service with single and batch prediction endpoints using fine-tuned DistilBERT.</div>
       <div class="project-metric">↳ 99.99% confidence on sentiment classification</div>
@@ -512,7 +516,7 @@
     </a>
 
     <a href="https://github.com/prakash-pappala/predictive-modeling-xgboost" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">📊</span><span class="project-badge">ML</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">ML</span></div>
       <div class="project-title">Predictive Modeling — XGBoost</div>
       <div class="project-desc">End-to-end ML pipeline comparing XGBoost and Random Forest with real-time prediction and feature importance visualization.</div>
       <div class="project-metric">↳ XGBoost 96.65% vs Random Forest 94.35%</div>
@@ -520,21 +524,21 @@
     </a>
 
     <a href="https://github.com/prakash-pappala/code-review-assistant" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">🔍</span><span class="project-badge">LLM</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">LLM</span></div>
       <div class="project-title">AI Code Review Assistant</div>
       <div class="project-desc">Multi-language code reviewer using Groq Llama3. Detects bugs, readability issues, and performance problems.</div>
       <div class="project-stack"><span class="stack-tag">Groq Llama3</span><span class="stack-tag">Prompt Engineering</span><span class="stack-tag">Streamlit</span></div>
     </a>
 
     <a href="https://github.com/prakash-pappala/knowledge-graph-nlp" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">🕸️</span><span class="project-badge">NLP</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">NLP</span></div>
       <div class="project-title">Knowledge Graph Builder</div>
       <div class="project-desc">Extracts named entities and relationships from unstructured text using SpaCy and visualizes as directed graphs via NetworkX.</div>
       <div class="project-stack"><span class="stack-tag">SpaCy</span><span class="stack-tag">NetworkX</span><span class="stack-tag">Streamlit</span></div>
     </a>
 
     <a href="https://github.com/prakash-pappala/text-classification-bert" target="_blank" class="project-card">
-      <div class="project-header"><span class="project-icon">🏷️</span><span class="project-badge">NLP</span></div>
+      <div class="project-header" style="justify-content:flex-start;"><span class="project-badge">NLP</span></div>
       <div class="project-title">Text Classification — DistilBERT</div>
       <div class="project-desc">Zero-shot text classification into custom categories using DistilBERT. No training required — define labels and classify.</div>
       <div class="project-stack"><span class="stack-tag">DistilBERT</span><span class="stack-tag">HuggingFace</span><span class="stack-tag">Streamlit</span></div>
@@ -623,20 +627,20 @@
   <div class="contact-inner">
     <div class="section-label">contact</div>
     <h2 class="section-title">Get In Touch</h2>
-    <p style="color: var(--muted); max-width: 500px; line-height: 1.7;">Open to Spring 2027 internships in AI/ML Engineering, Software Engineering, and Applied Research. Let's connect!</p>
+    <p style="color: var(--muted); max-width: 500px; line-height: 1.7;">I'm looking for Spring 2027 internships in AI/ML, software engineering, or applied research. Happy to chat if you're working on something interesting.</p>
     <div class="contact-grid">
       <a href="mailto:prakash.pappala1@gmail.com" class="contact-card">
-        <span class="contact-card-icon">✉️</span>
+        
         <div class="contact-card-label">Email</div>
         <div class="contact-card-value">prakash.pappala1@gmail.com</div>
       </a>
       <a href="https://linkedin.com/in/prakashpappala-19b1b6318" target="_blank" class="contact-card">
-        <span class="contact-card-icon">💼</span>
+        
         <div class="contact-card-label">LinkedIn</div>
         <div class="contact-card-value">prakashpappala</div>
       </a>
       <a href="https://github.com/prakash-pappala" target="_blank" class="contact-card">
-        <span class="contact-card-icon">💻</span>
+        
         <div class="contact-card-label">GitHub</div>
         <div class="contact-card-value">prakash-pappala</div>
       </a>
